@@ -1,0 +1,47 @@
+{
+  "name": "react_learning",
+  "version": "1.0.0",
+  "description": "learning react by reading document and writing some codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server  --mode development --inline --hot --open",
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonySheep/React_learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonySheep/React_learning/issues"
+  },
+  "homepage": "https://github.com/JonySheep/React_learning#readme",
+  "dependencies": {
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.2.0",
+    "@types/react": "^16.3.10",
+    "@types/react-dom": "^16.0.5",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "lite-server": "^2.4.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.1",
+    "typescript": "^3.2.2",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
