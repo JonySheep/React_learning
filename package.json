@@ -19,8 +19,10 @@
   },
   "homepage": "https://github.com/JonySheep/React_learning#readme",
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react": "^16.8.4",
+    "react-dom": "^16.6.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.0",
@@ -36,6 +38,7 @@
     "html-webpack-plugin": "^3.2.0",
     "lite-server": "^2.4.0",
     "mini-css-extract-plugin": "^0.5.0",
+    "react-devtools": "^3.6.1",
     "style-loader": "^0.23.1",
     "ts-loader": "^5.3.1",
     "typescript": "^3.2.2",
